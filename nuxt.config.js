@@ -74,6 +74,7 @@ export default {
   build: {
     postcss: {
       plugins: {
+        "postcss-custom-properties": false,
         tailwindcss: {},
         autoprefixer: {},
       },
