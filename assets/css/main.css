@@ -1,0 +1,16 @@
+.slick-slide {
+	padding: 0 8px;
+	box-sizing: border-box;
+ }
+
+.light .slick-prev:before, .light .slick-next:before,
+.light .slick-dots li.slick-active button:before,
+.light .slick-dots li button:before {
+  color: black !important;
+}
+
+.dark .slick-prev:before, .dark .slick-next:before,
+.dark .slick-dots li.slick-active button:before,
+.dark, .slick-dots li button:before {
+  color: white !important;
+}
