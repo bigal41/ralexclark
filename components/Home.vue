@@ -13,7 +13,7 @@
         alex clark
       </div>
       <div class="uppercase text-base text-zinc-900 dark:text-white font-nunito text-center px-16 md:px-0 mt-4">
-        I'am a front end developer from the greater toronto area that enjoys creating web applications and experiences.
+        I'm a front end developer from the greater toronto area that enjoys creating web applications and experiences.
       </div>
       <a href="/resume.pdf" class="bg-sky-600 text-white active:bg-sky-700 dark:bg-zinc-600 dark:text-sky-300 dark:active:bg-zinc-400 font-nunito font-bold uppercase text-sm px-8 py-2 mt-4 rounded-full shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150">
         resume

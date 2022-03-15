@@ -23,7 +23,7 @@
         </div>
          <!-- MOBILE SLIDE NAV -->
         <nav>
-          <a href="/" class="flex items-center group space-x-2 py-3 px-4 hover:bg-sky-700 hover:rounded hover:text-sky-300 dark:hover:bg-zinc-700 transition duration-200">
+          <a href="javscript:void(null)" @click="scrollTo('home')"  class="flex items-center group space-x-2 py-3 px-4 hover:bg-sky-700 hover:rounded hover:text-sky-300 dark:hover:bg-zinc-700 transition duration-200">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="h-6 w-6"
@@ -39,7 +39,7 @@
               /></svg
             ><span class="text-white group-hover:text-sky-300">Home</span>
           </a>
-          <a href="/" class="flex items-center group space-x-2 py-3 px-4 hover:bg-sky-700 hover:rounded hover:text-sky-300 dark:hover:bg-zinc-700 transition duration-200">
+          <a href="javscript:void(null)" @click="scrollTo('about')" class="flex items-center group space-x-2 py-3 px-4 hover:bg-sky-700 hover:rounded hover:text-sky-300 dark:hover:bg-zinc-700 transition duration-200">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="h-6 w-6"
@@ -56,7 +56,7 @@
             </svg>
             <span class="text-white group-hover:text-sky-300">About Me</span>
           </a>
-          <a href="/" class="flex items-center group space-x-2 py-3 px-4 hover:bg-sky-700 hover:rounded hover:text-sky-300 dark:hover:bg-zinc-700 transition duration-200">
+          <a href="javscript:void(null)" @click="scrollTo('projects')" class="flex items-center group space-x-2 py-3 px-4 hover:bg-sky-700 hover:rounded hover:text-sky-300 dark:hover:bg-zinc-700 transition duration-200">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="h-6 w-6"
@@ -73,7 +73,7 @@
             </svg>
             <span class="text-white group-hover:text-sky-300">Projects</span>
           </a>
-          <a href="/" class="flex items-center group space-x-2 py-3 px-4 hover:bg-sky-700 hover:rounded hover:text-sky-300 dark:hover:bg-zinc-700 transition duration-200">
+          <a href="javscript:void(null)" @click="scrollTo('contact')" class="flex items-center group space-x-2 py-3 px-4 hover:bg-sky-700 hover:rounded hover:text-sky-300 dark:hover:bg-zinc-700 transition duration-200">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="h-6 w-6"
