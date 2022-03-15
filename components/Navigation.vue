@@ -23,7 +23,7 @@
         </div>
          <!-- MOBILE SLIDE NAV -->
         <nav>
-          <a href="javscript:void(null)" @click="scrollTo('home')"  class="flex items-center group space-x-2 py-3 px-4 hover:bg-sky-700 hover:rounded hover:text-sky-300 dark:hover:bg-zinc-700 transition duration-200">
+          <button @click="scrollTo('home')"  class="flex items-center group space-x-2 py-3 px-4 hover:bg-sky-700 hover:rounded hover:text-sky-300 dark:hover:bg-zinc-700 transition duration-200">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="h-6 w-6"
@@ -38,8 +38,8 @@
                 d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
               /></svg
             ><span class="text-white group-hover:text-sky-300">Home</span>
-          </a>
-          <a href="javscript:void(null)" @click="scrollTo('about')" class="flex items-center group space-x-2 py-3 px-4 hover:bg-sky-700 hover:rounded hover:text-sky-300 dark:hover:bg-zinc-700 transition duration-200">
+          </button>
+          <button @click="scrollTo('about')" class="flex items-center group space-x-2 py-3 px-4 hover:bg-sky-700 hover:rounded hover:text-sky-300 dark:hover:bg-zinc-700 transition duration-200">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="h-6 w-6"
@@ -55,8 +55,8 @@
               />
             </svg>
             <span class="text-white group-hover:text-sky-300">About Me</span>
-          </a>
-          <a href="javscript:void(null)" @click="scrollTo('projects')" class="flex items-center group space-x-2 py-3 px-4 hover:bg-sky-700 hover:rounded hover:text-sky-300 dark:hover:bg-zinc-700 transition duration-200">
+          </button>
+          <button @click="scrollTo('projects')" class="flex items-center group space-x-2 py-3 px-4 hover:bg-sky-700 hover:rounded hover:text-sky-300 dark:hover:bg-zinc-700 transition duration-200">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="h-6 w-6"
@@ -72,8 +72,8 @@
               />
             </svg>
             <span class="text-white group-hover:text-sky-300">Projects</span>
-          </a>
-          <a href="javscript:void(null)" @click="scrollTo('contact')" class="flex items-center group space-x-2 py-3 px-4 hover:bg-sky-700 hover:rounded hover:text-sky-300 dark:hover:bg-zinc-700 transition duration-200">
+          </button>
+          <button @click="scrollTo('contact')" class="flex items-center group space-x-2 py-3 px-4 hover:bg-sky-700 hover:rounded hover:text-sky-300 dark:hover:bg-zinc-700 transition duration-200">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="h-6 w-6"
@@ -89,7 +89,7 @@
               />
             </svg>
             <span class="text-white group-hover:text-sky-300">Contact</span>
-          </a>
+          </button>
         </nav>
       </div>
     </div>
@@ -223,11 +223,17 @@ import Component from 'vue-class-component'
 
 @Component
 export default class Navigation extends Vue {
-  public showMenu = false;
 
-  public scrollTo = (id: string) => {
+  data() {
+    return {
+      showMenu: false
+    }
+  }
+
+  public scrollTo(id: string) {
     const element = document.querySelector(`#${id}`);
     if( element != null) {
+      this.$data.showMenu = false;
       element.scrollIntoView({ behavior: 'smooth', block: 'start'})
     }
   }
