@@ -25,7 +25,7 @@
         <a href="https://github.com/bigal41" target="_blank" class="flex items-center bg-white text-sky-600 active:bg-sky-700 active:text-white dark:bg-zinc-600 dark:text-sky-300 dark:active:bg-zinc-400 font-bold uppercase text-2xl px-3 py-2 rounded-xl shadow hover:shadow-lg outline-none focus:outline-none mr-3 mb-1 w-12 h-12 ease-linear transition-all duration-150">
           <font-awesome-icon icon="fa-brands fa-github" class="flex-1"/>
         </a>
-        <a href="mailto:ralexclark@outlook.com" class="bg-white text-sky-600 active:bg-sky-700 active:text-white dark:bg-zinc-600 dark:text-sky-300 dark:active:bg-zinc-400 font-bold uppercase text-2xl px-3 py-2 rounded-xl shadow hover:shadow-lg outline-none focus:outline-none mb-1 w-12 h-12 ease-linear transition-all duration-150">
+        <a href="mailto:ralexclark@outlook.com" class="flex items-center bg-white text-sky-600 active:bg-sky-700 active:text-white dark:bg-zinc-600 dark:text-sky-300 dark:active:bg-zinc-400 font-bold uppercase text-2xl px-3 py-2 rounded-xl shadow hover:shadow-lg outline-none focus:outline-none mb-1 w-12 h-12 ease-linear transition-all duration-150">
           <font-awesome-icon icon="fa-solid fa-envelope" class="flex-1"/>
         </a>
       </div>
