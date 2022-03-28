@@ -123,7 +123,7 @@
       </button>
     </div>
     <!-- NORMAL NAV BAR -->
-    <div id="navbar" class="hidden md:grid md:grid-cols-12 fixed bg-sky-600 dark:bg-zinc-500 w-screen p-2 font-nunito font-bold z-max text-2xl md:text-xl">
+    <div id="navbar" class="hidden md:grid md:grid-cols-12 fixed bg-sky-600 dark:bg-zinc-500 w-screen p-2 font-nunito font-bold z-max text-2xl md:text-xl 2xl:px-80">
       <div class="md:col-span-9 lg:col-span-7 xl:col-span-6 flex flex-row items-center justify-center">
         <div class="">
           <a href="javscript:void(null)" @click="scrollTo('home')" class="flex items-center group py-3 px-4 rounded text-white hover:bg-sky-700 hover:text-sky-300 dark:hover:bg-zinc-700 transition duration-200">

@@ -1,7 +1,7 @@
 <template>
-  <section id="home" class="flex flex-col md:flex-row h-screen items-center justify-center mt-0 md:mx-24 lg:mx-32">
+  <section id="home" class="flex flex-col md:flex-row h-screen items-center justify-center mt-0 md:mx-24 lg:mx-32 2xl:mx-[32rem]">
     <div class="lg:basis-1/2 md:basis-1/2 flex flex-wrap justify-center">
-      <div class="w-6/12 md:w-8/12 xl:8/12 px-4">
+      <div class="w-6/12 md:w-11/12 px-4">
         <img src="https://res.cloudinary.com/baclark2019/image/upload/v1647294915/ralexclark/alexclark.jpg" alt="..." class="shadow-lg rounded max-w-full h-auto align-middle border-4 md:border-2 border-sky-600 dark:border-sky-400" />
       </div>
     </div>

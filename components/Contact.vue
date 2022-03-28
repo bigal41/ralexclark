@@ -1,5 +1,5 @@
 <template>
-  <section id="contact" class="px-16 pt-20 md:mx-24 lg:mx-32 md:px-0 lg:px-8">
+  <section id="contact" class="px-16 pt-20 md:mx-24 lg:mx-32 md:px-0 lg:px-8 2xl:mx-[32rem]">
     <div class="uppercase font-nunito text-zinc-900 dark:text-white text-2xl">
       contact
     </div>
