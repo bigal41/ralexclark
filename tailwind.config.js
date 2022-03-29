@@ -6,7 +6,9 @@ module.exports = {
     "./plugins/**/*.{js,ts}",
     "./nuxt.config.{js,ts}",
   ],
-  purge: [],
+  purge: [
+    './src/**/*.vue',
+  ],
   darkMode: 'class', // or 'media' or 'class'
   theme: {
     extend: {

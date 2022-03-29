@@ -1,11 +1,13 @@
 export default {
+  target: 'static',
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'ralexclark',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'Alex Clark personal website' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [
@@ -86,6 +88,12 @@ export default {
   render: {
     static: {
       maxAge: 1000 * 60 * 60 * 24 * 7
+    }
+  },
+
+  image: {
+    cloudinary: {
+      baseURL: 'https://res.cloudinary.com/baclark2019/image/upload/v1647294915/ralexclark'
     }
   }
 }
