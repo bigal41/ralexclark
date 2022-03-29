@@ -10,7 +10,7 @@
          <div class="flex flex-col xl:flex-row px-4 py-4">
           <div class="flex flex-wrap justify-center md:items-center">
             <div class="w-full xl:w-9/12">
-              <img src="https://res.cloudinary.com/baclark2019/image/upload/q_auto,f_auto/v1647289299/ralexclark/borealis.png" alt="..." class="shadow rounded max-w-full h-auto align-middle border-none" />
+              <nuxt-img src="https://res.cloudinary.com/baclark2019/image/upload/q_auto,f_auto/v1647289299/ralexclark/borealis.png" alt="..." class="shadow rounded max-w-full h-auto align-middle border-none" width="2876" height="1646" />
             </div>
           </div> 
           <div class="flex flex-col font-nunito mt-4 md:p-4 lg:p-0 xl:w-full">
@@ -40,7 +40,7 @@
         <div class="flex flex-col xl:flex-row px-4 py-4">
           <div class="flex flex-wrap justify-center md:items-center">
             <div class="w-full xl:w-9/12">
-              <img src="https://res.cloudinary.com/baclark2019/image/upload/q_auto,f_auto/v1647288290/ralexclark/kclarkunlimited.png" alt="..." class="shadow rounded max-w-full h-auto align-middle border-none" />
+              <nuxt-img src="https://res.cloudinary.com/baclark2019/image/upload/q_auto,f_auto/v1647288290/ralexclark/kclarkunlimited.png" alt="..." class="shadow rounded max-w-full h-auto align-middle border-none" width="2880" height="1640" />
             </div>
           </div> 
           <div class="flex flex-col font-nunito mt-4 md:p-4 lg:p-0 xl:w-full">
@@ -76,7 +76,7 @@
         <div class="flex flex-col xl:flex-row px-4 py-4">
           <div class="flex flex-wrap justify-center md:items-center">
             <div class="w-full xl:w-9/12">
-              <img src="https://res.cloudinary.com/baclark2019/image/upload/q_auto,f_auto/v1647288291/ralexclark/baclark.png" alt="..." class="shadow rounded max-w-full h-auto align-middle border-none" />
+              <nuxt-img src="https://res.cloudinary.com/baclark2019/image/upload/q_auto,f_auto/v1647288291/ralexclark/baclark.png" alt="..." class="shadow rounded max-w-full h-auto align-middle border-none" width="2878" height="1640" />
             </div>
           </div> 
           <div class="flex flex-col font-nunito mt-4 md:p-4 lg:p-0 xl:w-full">

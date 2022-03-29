@@ -42,7 +42,9 @@ export default {
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     '@nuxt/postcss8',
-    "@nuxtjs/color-mode",
+    '@nuxtjs/color-mode',
+    'nuxt-compress',
+    '@nuxt/image'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -80,4 +82,10 @@ export default {
       },
     },
   },
+
+  render: {
+    static: {
+      maxAge: 1000 * 60 * 60 * 24 * 7
+    }
+  }
 }
