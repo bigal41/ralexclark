@@ -53,17 +53,17 @@
               </a>
             </div>
             <div class="mt-4">
-              Fuctioning HR application that uses VueJS for a front end and Kotlin backend.
+             A custom blog for Canadian Champion boxer and inspiring Olympian Kaitlyn Clark.
             </div>
             <div class="mt-4">
-              Hosted using Docker contianers with artifacts stored in Artifactory. 
+              The blog is built using vuejs and nuxtjs pulling in content from Cockpit CMS.
             </div>
             <div class="flex flex-wrap space-x-2 mt-4">
               <span class="px-4 py-2 rounded-full bg-sky-400 text-white font-semibold text-sm flex align-center w-max">
-                React
+                VueJS
               </span>
               <span class="px-4 py-2 rounded-full bg-sky-400 text-white font-semibold text-sm flex align-center w-max">
-                NextJS
+                NuxtJS
               </span>
               <span class="px-4 py-2 rounded-full bg-sky-400 text-white font-semibold text-sm flex align-center w-max">
                 Cockpit CMS
@@ -89,10 +89,10 @@
                 </a>
             </div>
             <div class="mt-4">
-              Fuctioning HR application that uses VueJS for a front end and Kotlin backend.
+              A website built to provide information for my upcoming wedding. Includes RSVP system and a image gallery. 
             </div>
             <div class="mt-4">
-              Hosted using Docker contianers with artifacts stored in Artifactory. 
+              It is built using VueJS for the front end. The RSVP system communicates to a Node backend server. 
             </div>
             <div class="flex flex-wrap space-x-2 mt-4">
               <span class="px-4 py-2 rounded-full bg-sky-400 text-white font-semibold text-sm flex align-center w-max">
