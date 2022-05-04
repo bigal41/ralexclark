@@ -46,7 +46,8 @@ export default {
     '@nuxt/postcss8',
     '@nuxtjs/color-mode',
     'nuxt-compress',
-    '@nuxt/image'
+    '@nuxt/image',
+    '@nuxtjs/google-fonts'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
