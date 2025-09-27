@@ -10,7 +10,15 @@
          <div class="flex flex-col xl:flex-row px-4 py-4">
           <div class="flex flex-wrap justify-center md:items-center">
             <div class="w-full xl:w-9/12">
-              <nuxt-img provider="cloudinary" src="/borealis.png" alt="..." class="shadow rounded max-w-full h-auto align-middle border-none" width="2876" height="1646" />
+              <nuxt-img
+                provider="cloudinary" 
+                src="/borealis.png"
+                alt="borealis"
+                class="shadow rounded max-w-full h-auto align-middle border-none"
+                width="1439"
+                height="820"
+                sizes="xs:100vw sm:100vw md:100vw lg:100vw"
+                loading="lazy"/>
             </div>
           </div> 
           <div class="flex flex-col font-nunito mt-4 md:p-4 lg:p-0 xl:w-full">
@@ -40,7 +48,15 @@
         <div class="flex flex-col xl:flex-row px-4 py-4">
           <div class="flex flex-wrap justify-center md:items-center">
             <div class="w-full xl:w-9/12">
-              <nuxt-img provider="cloudinary" src="/kclarkunlimited.png" alt="..." class="shadow rounded max-w-full h-auto align-middle border-none" width="2880" height="1640" />
+              <nuxt-img
+                provider="cloudinary"
+                src="/kclarkunlimited.png"
+                alt="K Clark Unlimited"
+                class="shadow rounded max-w-full h-auto align-middle border-none"
+                width="1439"
+                height="820"
+                sizes="xs:100vw sm:100vw md:100vw lg:100vw"
+                loading="lazy"/>
             </div>
           </div> 
           <div class="flex flex-col font-nunito mt-4 md:p-4 lg:p-0 xl:w-full">
@@ -76,7 +92,15 @@
         <div class="flex flex-col xl:flex-row px-4 py-4">
           <div class="flex flex-wrap justify-center md:items-center">
             <div class="w-full xl:w-9/12">
-              <nuxt-img provider="cloudinary" src="/baclark.png" alt="..." class="shadow rounded max-w-full h-auto align-middle border-none" width="2878" height="1640" />
+              <nuxt-img
+              provider="cloudinary"
+              src="/baclark.png"
+              alt="baclark.ca"
+              class="shadow rounded max-w-full h-auto align-middle border-none"
+              width="1439"
+              height="820"
+              sizes="xs:100vw sm:100vw md:100vw lg:100vw"
+              loading="lazy"/>
             </div>
           </div> 
           <div class="flex flex-col font-nunito mt-4 md:p-4 lg:p-0 xl:w-full">

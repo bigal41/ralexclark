@@ -1,8 +1,18 @@
 <template>
   <section id="home" class="flex flex-col md:flex-row h-screen items-center justify-center mt-0 md:mx-24 lg:mx-32 2xl:mx-[32rem]">
     <div class="lg:basis-1/2 md:basis-1/2 flex flex-wrap justify-center">
-      <div class="w-6/12 md:w-11/12 lg:w-8/12 2xl:8/12 px-4">
-        <nuxt-img provider="cloudinary" src="/alexclark.jpg" alt="..." class="shadow-lg rounded max-w-full h-auto align-middle border-4 md:border-2 border-sky-600 dark:border-sky-400" width="1200" height="1200"/>
+      <div class="xs:w-11/12 w-6/12 md:w-11/12 lg:w-8/12 2xl:8/12 px-4">
+        <nuxt-img
+          provider="cloudinary"
+          :modifiers="{ quality: 'auto:best', format: 'webp' }" 
+          src="/alexclark.jpg" 
+          alt="profile"
+          height="395"
+          width="395"
+          class="shadow-lg rounded max-w-full h-auto align-middle border-4 md:border-2 border-sky-600 dark:border-sky-400"
+          sizes="xs:100vw sm:100vw md:100vw lg:100vw"
+          fetchpriority="high"
+          loading="eager" />
       </div>
     </div>
     <div class="lg:basis-1/2 md:basis-1/2 flex flex-col justify-center items-center">
@@ -19,13 +29,13 @@
         resume
       </a>
       <div class="flex mt-4">
-        <a href="https://www.linkedin.com/in/raclark-5a5a6971" target="_blank" class="flex items-center bg-white text-sky-600 active:bg-sky-700 active:text-white dark:bg-zinc-600 dark:text-sky-300 dark:active:bg-zinc-400 font-bold uppercase text-2xl px-3 py-2 rounded-xl shadow hover:shadow-lg outline-none focus:outline-noe mr-3 mb-1 w-12 h-12 ease-linear transition-all duration-150">
+        <a href="https://www.linkedin.com/in/raclark-5a5a6971" target="_blank" aria-label="Click to view linkedin" class="flex items-center bg-white text-sky-600 active:bg-sky-700 active:text-white dark:bg-zinc-600 dark:text-sky-300 dark:active:bg-zinc-400 font-bold uppercase text-2xl px-3 py-2 rounded-xl shadow hover:shadow-lg outline-none focus:outline-noe mr-3 mb-1 w-12 h-12 ease-linear transition-all duration-150">
           <font-awesome-icon icon="fa-brands fa-linkedin" class="flex-1"/>
         </a>
-        <a href="https://github.com/bigal41" target="_blank" class="flex items-center bg-white text-sky-600 active:bg-sky-700 active:text-white dark:bg-zinc-600 dark:text-sky-300 dark:active:bg-zinc-400 font-bold uppercase text-2xl px-3 py-2 rounded-xl shadow hover:shadow-lg outline-none focus:outline-none mr-3 mb-1 w-12 h-12 ease-linear transition-all duration-150">
+        <a href="https://github.com/bigal41" target="_blank" aria-label="Click to view github"  class="flex items-center bg-white text-sky-600 active:bg-sky-700 active:text-white dark:bg-zinc-600 dark:text-sky-300 dark:active:bg-zinc-400 font-bold uppercase text-2xl px-3 py-2 rounded-xl shadow hover:shadow-lg outline-none focus:outline-none mr-3 mb-1 w-12 h-12 ease-linear transition-all duration-150">
           <font-awesome-icon icon="fa-brands fa-github" class="flex-1"/>
         </a>
-        <a href="mailto:ralexclark@outlook.com" class="flex items-center bg-white text-sky-600 active:bg-sky-700 active:text-white dark:bg-zinc-600 dark:text-sky-300 dark:active:bg-zinc-400 font-bold uppercase text-2xl px-3 py-2 rounded-xl shadow hover:shadow-lg outline-none focus:outline-none mb-1 w-12 h-12 ease-linear transition-all duration-150">
+        <a href="mailto:ralexclark@outlook.com" aria-label="Click to email ralexclark@outlook.com"  class="flex items-center bg-white text-sky-600 active:bg-sky-700 active:text-white dark:bg-zinc-600 dark:text-sky-300 dark:active:bg-zinc-400 font-bold uppercase text-2xl px-3 py-2 rounded-xl shadow hover:shadow-lg outline-none focus:outline-none mb-1 w-12 h-12 ease-linear transition-all duration-150">
           <font-awesome-icon icon="fa-solid fa-envelope" class="flex-1"/>
         </a>
       </div>
