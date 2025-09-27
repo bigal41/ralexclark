@@ -4,19 +4,19 @@
       <div class="xs:w-11/12 w-6/12 md:w-11/12 lg:w-8/12 2xl:8/12 px-4">
         <nuxt-img
           provider="cloudinary"
-          :modifiers="{ quality: 'auto:best', format: 'webp' }" 
+          :modifiers="{ format: 'auto', quality: 'auto' }"
           src="/alexclark.jpg" 
           alt="profile"
-          height="395"
-          width="395"
           class="shadow-lg rounded max-w-full h-auto align-middle border-4 md:border-2 border-sky-600 dark:border-sky-400"
-          sizes="xs:100vw sm:100vw md:100vw lg:100vw"
+           width="395"
+          height="395"
+          sizes="xs:166px sm:200px md:260px lg:320px xl:360px xxl:395px"
           fetchpriority="high"
           loading="eager" />
       </div>
     </div>
     <div class="lg:basis-1/2 md:basis-1/2 flex flex-col justify-center items-center">
-      <div class="mt-4 uppercase text-base text-zinc-400 dark:text-zinc-100 font-nunito">
+      <div class="mt-4 uppercase text-base text-zinc-900 dark:text-zinc-100 font-nunito">
         hello, my name is
       </div>
       <div class="uppercase text-4xl text-sky-600 dark:text-sky-400 font-nunito">

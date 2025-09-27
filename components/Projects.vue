@@ -7,18 +7,20 @@
     <div class="mt-4">
     <VueSlickCarousel v-bind="settings">
       <div class="bg-white text-zinc-800 dark:bg-zinc-600 dark:text-white rounded-lg">
-         <div class="flex flex-col xl:flex-row px-4 py-4">
+         <div class="flex flex-col xl:flex-row px-4 py-4 gap-4">
           <div class="flex flex-wrap justify-center md:items-center">
-            <div class="w-full xl:w-9/12">
+            <div class="relative w-full aspect-[16/9]">
               <nuxt-img
                 provider="cloudinary" 
                 src="/borealis.png"
                 alt="borealis"
                 class="shadow rounded max-w-full h-auto align-middle border-none"
-                width="1439"
-                height="820"
-                sizes="xs:100vw sm:100vw md:100vw lg:100vw"
-                loading="lazy"/>
+                :modifiers="{ format: 'auto', quality: 'auto' }"
+                width="900"
+                height="506"               
+                sizes="xs:236px sm:360px md:520px lg:720px xl:860px 2xl:900px"          
+                loading="lazy"
+                fetchpriority="high"/>
             </div>
           </div> 
           <div class="flex flex-col font-nunito mt-4 md:p-4 lg:p-0 xl:w-full">
@@ -45,18 +47,20 @@
         </div>
       </div>
       <div class="bg-white text-zinc-800 dark:bg-zinc-600 dark:text-white rounded-lg">
-        <div class="flex flex-col xl:flex-row px-4 py-4">
+        <div class="flex flex-col xl:flex-row px-4 py-4 gap-4">
           <div class="flex flex-wrap justify-center md:items-center">
-            <div class="w-full xl:w-9/12">
+            <div class="relative w-full aspect-[16/9]">
               <nuxt-img
                 provider="cloudinary"
                 src="/kclarkunlimited.png"
                 alt="K Clark Unlimited"
                 class="shadow rounded max-w-full h-auto align-middle border-none"
-                width="1439"
-                height="820"
-                sizes="xs:100vw sm:100vw md:100vw lg:100vw"
-                loading="lazy"/>
+                :modifiers="{ format: 'auto', quality: 'auto' }"
+                width="900"
+                height="506"               
+                sizes="xs:236px sm:360px md:520px lg:720px xl:860px 2xl:900px"                
+                loading="lazy"
+                fetchpriority="low" />
             </div>
           </div> 
           <div class="flex flex-col font-nunito mt-4 md:p-4 lg:p-0 xl:w-full">
@@ -89,18 +93,20 @@
         </div>
       </div>
       <div class="bg-white text-zinc-800 dark:bg-zinc-600 dark:text-white rounded-lg">
-        <div class="flex flex-col xl:flex-row px-4 py-4">
+        <div class="flex flex-col xl:flex-row px-4 py-4 gap-4">
           <div class="flex flex-wrap justify-center md:items-center">
-            <div class="w-full xl:w-9/12">
+            <div class="relative w-full aspect-[16/9]">
               <nuxt-img
               provider="cloudinary"
               src="/baclark.png"
               alt="baclark.ca"
               class="shadow rounded max-w-full h-auto align-middle border-none"
-              width="1439"
-              height="820"
-              sizes="xs:100vw sm:100vw md:100vw lg:100vw"
-              loading="lazy"/>
+                :modifiers="{ format: 'auto', quality: 'auto' }"
+                width="900"
+                height="506"               
+                sizes="xs:236px sm:360px md:520px lg:720px xl:860px 2xl:900px"            
+                loading="lazy"
+                fetchpriority="low" />
             </div>
           </div> 
           <div class="flex flex-col font-nunito mt-4 md:p-4 lg:p-0 xl:w-full">
