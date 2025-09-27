@@ -6,7 +6,7 @@
     <projects />
     <contact />
     <footer class="h-20 w-screen flex uppercase items-end justify-center text-xs">
-      alex clark ©2022
+      alex clark ©2025
     </footer>
   </div>
 </template>
