@@ -128,20 +128,7 @@ export default class Projects extends Vue {
     slidesToScroll: 1,
     initialSlide: 0,
     swipe: true,
-    swipeToSlide: true,
-    touchMove: true,
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          arrows: false,
-          draggable: true,
-          swipe: true,
-          swipeToSlide: true,
-          touchMove: true
-        }
-      }
-    ]
+    touchMove: true
   }
 
   public projects: Project[] = [
