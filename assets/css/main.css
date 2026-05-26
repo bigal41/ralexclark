@@ -14,3 +14,10 @@
 .dark, .slick-dots li button:before {
   color: white !important;
 }
+
+@media (max-width: 767px) {
+  .slick-prev,
+  .slick-next {
+    display: none !important;
+  }
+}

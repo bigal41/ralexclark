@@ -91,11 +91,6 @@
           </div>
         </div>
 
-        <template #prevArrow="arrowOption">
-          <div class="custom-arrow">
-            {{ arrowOption.currentSlide }}/{{ arrowOption.slideCount }}
-          </div>
-        </template>
       </VueSlickCarousel>
     </div>
   </section>
@@ -124,12 +119,29 @@ type Project = {
 })
 export default class Projects extends Vue {
   public settings = {
+    arrows: true,
+    draggable: true,
     dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    initialSlide: 0
+    initialSlide: 0,
+    swipe: true,
+    swipeToSlide: true,
+    touchMove: true,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+          draggable: true,
+          swipe: true,
+          swipeToSlide: true,
+          touchMove: true
+        }
+      }
+    ]
   }
 
   public projects: Project[] = [
