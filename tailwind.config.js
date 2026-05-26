@@ -1,31 +1,23 @@
 module.exports = {
   content: [
-    "./components/**/*.{js,vue,ts}",
-    "./layouts/**/*.vue",
-    "./pages/**/*.vue",
-    "./plugins/**/*.{js,ts}",
-    "./nuxt.config.{js,ts}",
+    './app/app.vue',
+    './app/components/**/*.{js,vue,ts}',
+    './app/layouts/**/*.vue',
+    './app/pages/**/*.vue',
+    './app/plugins/**/*.{js,ts}',
+    './nuxt.config.{js,ts}',
   ],
-  purge: [
-    './src/**/*.vue',
-  ],
-  darkMode: 'class', // or 'media' or 'class'
+  darkMode: 'class',
   theme: {
     extend: {
       fontFamily: {
-        'nunito': ['Nunito', 'sans serif']
+        nunito: ['Nunito', 'sans-serif'],
       },
       zIndex: {
-        'max': 10000,
-        'doubleMax': 10001
-      }
+        max: 10000,
+        doubleMax: 10001,
+      },
     },
   },
-  variants: {
-    extends: {}
-  },
-
-  plugins: [
-    require("daisyui"),
-  ],
+  plugins: [],
 }

@@ -1,18 +1,14 @@
-FROM node:14.17.5-alpine
+FROM node:22-alpine
 
-RUN mkdir -p /usr/src/ralexclark
 WORKDIR /usr/src/ralexclark
 
-RUN apk update && apk upgrade
-RUN apk add git
-
-COPY . /usr/src/ralexclark/
-RUN npm install
-RUN npm run build
+COPY . .
+RUN npm ci
+RUN npm run generate
 
 EXPOSE 3000
 
-ENV NUXT_HOST=0.0.0.0
-ENV NUXT_PORT=3000
+ENV HOST=0.0.0.0
+ENV PORT=3000
 
-CMD [ "npm", "start" ]
+CMD [ "npm", "run", "preview", "--", "--host=0.0.0.0", "--port=3000" ]
