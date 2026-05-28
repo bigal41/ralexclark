@@ -2,53 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-.carousel__slide {
-  padding: 0;
+.v-slick-slide-group {
+  padding: 0 8px;
   box-sizing: border-box;
-  align-items: stretch;
 }
 
-.carousel__track {
-  align-items: stretch;
+.v-slick-slide-group > * {
+  height: 100%;
 }
 
-.carousel__pagination {
-  position: static !important;
-  inset: auto !important;
-  transform: none !important;
-  justify-content: center;
-  margin: 0 !important;
-}
-
-.light .carousel__prev,
-.light .carousel__next {
+.light .v-slick-arrow:before,
+.light .v-slick-dots li.active button:before,
+.light .v-slick-dots li button:before {
   color: black !important;
 }
 
-.light .carousel__pagination-button {
-  background-color: rgb(156 163 175) !important;
-}
-
-.light .carousel__pagination-button--active {
-  background-color: black !important;
-}
-
-.dark .carousel__prev,
-.dark .carousel__next {
+.dark .v-slick-arrow:before,
+.dark .v-slick-dots li.active button:before,
+.dark .v-slick-dots li button:before {
   color: white !important;
 }
 
-.dark .carousel__pagination-button {
-  background-color: rgb(113 113 122) !important;
-}
-
-.dark .carousel__pagination-button--active {
-  background-color: white !important;
-}
-
 @media (max-width: 767px) {
-  .carousel__prev,
-  .carousel__next {
+  .v-slick-arrow {
     display: none !important;
   }
 }

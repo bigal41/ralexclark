@@ -33,7 +33,7 @@ export default defineNuxtConfig({
 
   css: [
     '@fortawesome/fontawesome-svg-core/styles.css',
-    'vue3-carousel/dist/carousel.css',
+    'v-slick-carousel/style.css',
   ],
 
   modules: [
